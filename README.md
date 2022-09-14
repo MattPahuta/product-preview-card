@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-product-card-using-flexbox-3KMkOMGjIh)
 - Live Site URL: [Add live site URL here](https://product-preview-card-five-lyart.vercel.app/)
 
 ## My process

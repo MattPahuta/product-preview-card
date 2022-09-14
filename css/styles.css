@@ -68,19 +68,19 @@ body {
   background: var(--clr-white);
   border-radius: 10px;
   max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.35);
 }
 
 .card-image {
   min-height: 240px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 /* Card content styles */
 .card-content {
   padding: 1.5em;
   flex-direction: column;
-  gap: 1.25em;
+  gap: 1.125em;
 }
 
 .card-category {
@@ -157,6 +157,7 @@ body {
   text-transform: uppercase;
 }
 
+/* media queries */
 @media (min-width: 768px) {
 
   .card {
@@ -167,11 +168,6 @@ body {
   .card-picture,
   .card-content {
     flex-basis: 50%;
-  }
-
-  .card-image {
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 10px;
   }
 
   .card-content {
